@@ -9,8 +9,8 @@ Check product [documentation](https://docs.google.com/document/d/1P9znOKfQIHDP3B
 2. Click on `Clone or download` button and copy url
 3. Clone your own fork
 ```bash
-# Replace MYFORK_URL with what you just copied
-git clone MYFORK_URL
+# Replace FORK_URL with what you just copied
+git clone FORK_URL
 ```
 
 ## Install dependencies
@@ -73,6 +73,9 @@ npm run start
 Locate this repository's folder on your terminal.
 
 ```bash
+# Replace FORK_URL with your remote fork url
+$ git remote add my-fork FORK_URL
+
 # Create a new feature branch
 git checkout -b BRANCH_NAME
 
