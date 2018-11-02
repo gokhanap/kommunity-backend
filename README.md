@@ -17,8 +17,6 @@ git clone FORK_URL
 Locate this repository's folder on your terminal and install dependencies.
 ``` bash
 npm install
-npm install -g nodemon
-npm i -g babel-cli
 ```
 
 ## Install mysql
